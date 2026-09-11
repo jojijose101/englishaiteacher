@@ -9,7 +9,7 @@ export default defineConfig({
     strictPort: true,
     proxy: {
       '/api': {
-        target: 'https://englishapi-git-main-jojijose101s-projects.vercel.app/',
+        target: 'https://englishapi-three.vercel.app/',
         changeOrigin: true,
       },
     },
