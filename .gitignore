@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+*.env
+!*.env.example
+
+# Python
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+
+# Misc
+*.wav
+*.mp3
+*.json.bak
+chat_test.json
+tts_test.json
