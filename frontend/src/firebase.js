@@ -3,16 +3,13 @@ import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 // Firebase config — from console.firebase.google.com
-// These values are safe to expose in a client bundle (Firebase secures access
-// via project rules, not by hiding this config), but env vars make it easy to
-// point at a different Firebase project per environment without editing code.
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAyJfR5qrL-MsZH2qo9zKdLhrdBt6wab7o",
+  authDomain: "englishguru-83dcd.firebaseapp.com",
+  projectId: "englishguru-83dcd",
+  storageBucket: "englishguru-83dcd.firebasestorage.app",
+  messagingSenderId: "896970802312",
+  appId: "1:896970802312:web:cee25364bb6f4d4d9f4b3d"
 }
 
 // Initialize Firebase — order matters: app first, then auth and db
