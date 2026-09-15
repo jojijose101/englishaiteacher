@@ -9,7 +9,7 @@ export default defineConfig({
     strictPort: true,
     proxy: {
       '/api': {
-        target: 'https://englishaiteacher-api.vercel.app/',
+        target: 'https://speakenglish-pp1h.vercel.app/',
         changeOrigin: true,
       },
     },
